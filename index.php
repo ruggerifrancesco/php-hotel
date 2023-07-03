@@ -66,7 +66,7 @@
             <?php foreach ($hotels as $key => $hotel): ?>
                 <tr>
                     <th scope="row">
-                        
+                        <?php echo $key; ?>
                     </th>
                     <td>
                         <?php echo $hotel['name']; ?>
