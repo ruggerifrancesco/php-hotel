@@ -68,6 +68,7 @@
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
+                <th scope="col">Number</th>
                 <th scope="col">Name</th>
                 <th scope="col">Description</th>
                 <th scope="col">Parking</th>
