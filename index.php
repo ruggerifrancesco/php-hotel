@@ -62,7 +62,17 @@
                 <th>Distance to Center</th>
             </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+            <?php foreach ($hotels as $hotel): ?>
+                <tr>
+                    <td><?php echo $hotel['name']; ?></td>
+                    <td><?php echo $hotel['description']; ?></td>
+                    <td><?php echo $hotel['parking'] ? 'Yes' : 'No'; ?></td>
+                    <td><?php echo $hotel['vote']; ?></td>
+                    <td><?php echo $hotel['distance_to_center']; ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
     </table>
 </body>
 </html>
