@@ -52,10 +52,6 @@
         rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <style>
-        * {
-            outline: 1px solid red;
-        }
-
         body {
             display: flex;
             justify-content: center;
@@ -69,7 +65,7 @@
     </style>
 </head>
 <body>
-    <table class="table">
+    <table class="table table-striped table-bordered">
         <thead>
             <tr>
                 <th scope="col">Name</th>
@@ -81,7 +77,7 @@
         </thead>
         <tbody>
             <?php foreach ($hotels as $key => $hotel): ?>
-                <tr>
+                <tr class="table-primary">
                     <th scope="row">
                         <?php echo $key; ?>
                     </th>
