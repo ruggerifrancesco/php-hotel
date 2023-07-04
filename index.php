@@ -80,7 +80,7 @@
             <?php foreach ($hotels as $key => $hotel): ?>
                 <tr class="table-primary">
                     <th scope="row">
-                        <?php echo $key; ?>
+                        <?php echo $key + 1; ?>
                     </th>
                     <td>
                         <?php echo $hotel['name']; ?>
