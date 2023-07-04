@@ -65,7 +65,7 @@
     </style>
 </head>
 <body>
-    <table class="table table-striped table-bordered">
+    <table class="table table-striped table-bordered table-hover">
         <thead>
             <tr>
                 <th scope="col">Number</th>
